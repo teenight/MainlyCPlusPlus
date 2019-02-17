@@ -1,0 +1,52 @@
+1.	string firstname = "Cam";
+	string lastname = "Newton";
+	cout << firstname + lastname << endl;
+
+2.	string username = "Scott";
+	string message = "Welcome to our TigerBook Social Network!";
+	string groupname = "#All";
+	string message_buffer;
+	message_buffer += "<!" + username + ":" + groupname + "!>" + message;
+	cout << message_buffer << endl;
+
+3.	string username2 = "Kathy";
+	string message2 = "Way to go, Scott!";
+	string groupname2 = "#Tigers";
+	message_buffer += "<!" + username2 + ":" + groupname2 + "!>" + message2;
+	cout << message_buffer << endl;
+
+4.	string message3 = "Go Tiger";
+	string message4 = "Glory to Auburn!";
+	message_buffer = message3 + "\n" + message4;
+
+	After printed out, the output is "Go Tiger\nGlory to Auburn!". The "\n" acts as a string.
+
+5.	string.size() returns the length of the string.
+	message_buffer.size() returns the length of the stored string, which is 88.
+
+6.	message.clear() will clear the message.
+
+7.	int first = message_buffer.find("<!");
+	cout << first << endl;
+
+8.	int second = message_buffer.rfind("<!");
+	cout << second << endl;
+
+9.	int endOfFirstUserName = message_buffer.find(":");
+	string firstUserName = message_buffer.substr(first + 2, endOfFirstUserName - first - 2);
+	cout << firstUserName << endl;
+
+10.	int endOfSecondUserName = message_buffer.rfind(":");
+	string secondUserName = message_buffer.substr(second + 2, endOfSecondUserName - second - 2);
+	cout << secondUserName << endl;
+
+11.	int endOfSecondGroupName = message_buffer.rfind("!>");
+	string secondMessage = message_buffer.substr(endOfGroupName + 2);
+	cout << secondMessage << endl;
+
+12.	string secondGroupName = message_buffer.substr(endOfSecondUserName + 1, endOfSecondGroupName - endOfSecondUserName - 1);
+	cout << secondGroupName << endl;
+
+13.	string messagebuffer;
+	cin >> messagebuffer; // Gets first word.
+	getline(cin, messagebuffer); // Gets whole line.

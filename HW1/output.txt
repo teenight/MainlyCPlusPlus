@@ -1,0 +1,62 @@
+Script started on Mon 18 Sep 2017 12:03:27 AM CDT
+]0;nick@nick-XPS-15-9560: ~[01;32mnick@nick-XPS-15-9560[00m:[01;34m~[00m$ ./HW1.out
+===========================================================
+|         Welcome to the TigerBook Social Network!        |
+===========================================================
+Enter user name > Scott
+Enter group name > #All
+Enter the message > Welcome to our TigerBook Social Network!
+We had an exciting summer.
+Let me know about yours.
+^!
+
+Any more users? > yes
+
+Enter user name > Heidi
+Enter group name > #Tigers
+Enter the message > Great to part of this group.
+The Bahamas was super!
+^!
+
+Any more users? > yes
+
+Enter user name > Tyler
+Enter group name > #Aubie
+Enter the message > I'm in.
+We did the entire Pinhoti trail.
+Man! That was exhausting.
+^!
+
+Any more users? > yes
+
+Enter user name > Kathy
+Enter group name > #Tigers
+Enter the message > Wazzup!
+I'm back from the Andes!
+^!
+
+Any more users? > no
+
+The current messages are >>
+
+Kathy (#Tigers) >
+Wazzup!
+I'm back from the Andes!
+
+Tyler (#Aubie) >
+I'm in.
+We did the entire Pinhoti trail.
+Man! That was exhausting.
+
+Heidi (#Tigers) >
+Great to be part of this group.
+The Bahamas was super!
+
+Scott (#All) >
+Welcome to our TigerBook Social Network!
+We had an exciting summer.
+Let me know about yours.
+]0;nick@nick-XPS-15-9560: ~[01;32mnick@nick-XPS-15-9560[00m:[01;34m~[00m$ exit
+exit
+
+Script done on Mon 18 Sep 2017 12:07:16 AM CDT

@@ -1,0 +1,31 @@
+Script started on Wed 15 Nov 2017 11:37:28 PM CST
+]0;nick@nick-XPS-15-9560: ~/Desktop/L3[01;32mnick@nick-XPS-15-9560[00m:[01;34m~/Desktop/L3[00m$ g++ MazeRunner.cpp MazeCreator.cpp Node.cpp
+]0;nick@nick-XPS-15-9560: ~/Desktop/L3[01;32mnick@nick-XPS-15-9560[00m:[01;34m~/Desktop/L3[00m$ ./a.out
+	===========================================================
+	|      Welcome to the Snakes and Ladders Maze Game        |
+	===========================================================
+Please enter file name: Maze 1.txt
+You are currently in Node A1 of the Maze Game, you can go East. What is your choice? E
+
+You are currently in Node B1 of the Maze Game, you can go North. What is your choice? N
+
+You are currently in Node B2 of the Maze Game, you can go East or South or West. What is your choice? E
+
+You are currently in Node C2 of the Maze Game, you can go North or South or West. What is your choice? S
+
+You are currently in Node C1 of the Maze Game, you can go North or East. What is your choice? E
+
+You are currently in Node G3 of the Maze Game, you can go North or East. What is your choice? N
+
+You are currently in Node G4 of the Maze Game, you can go North or South or West. What is your choice? N
+
+You are currently in Node G5 of the Maze Game, you can go East or South. What is your choice? E
+
+You are currently in Node H5 of the Maze Game, you can go North or West. What is your choice? N
+
+Congratulations, you are the winner! You have reached the destination point.
+You took 11 steps.
+The nodes you visited are : A1 B1 B2 C2 C1 D1 G3 G4 G5 H5 H6 
+]0;nick@nick-XPS-15-9560: ~/Desktop/L3[01;32mnick@nick-XPS-15-9560[00m:[01;34m~/Desktop/L3[00m$ exit
+
+Script done on Wed 15 Nov 2017 11:38:43 PM CST
